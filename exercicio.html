@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/exercicio.css">
+    <script src="js/head.min.js"></script>
+
+    <!--[if lte IE 8]>
+        <script src="js/respond.js"></script>
+    <![endif]-->    
+
+</head>
+
+<body>
+    <div class="camada" id="questao-1">
+        <div class="row">
+            <div class="col col-sm-6 col-sm-push-6 col-md-6 col-md-push-6">
+                <div class="questao">
+                    <div class="limite">
+                        <div class="saudacao">
+                            <p><strong>Hola, ¿qué tal?</strong></p>
+                            <p>Yo soy el Dr. Marshall y me gustaría hacerle una pregunta:</p>
+                        </div>
+                        <header class="enunciado">
+                            <p>Piense en su último viaje. ¿Qué le marcó más?</p>
+                        </header>
+
+                        <div class="alternativas">
+                            <div class="alternativa">
+                                <span class="checkbox-wrap">
+                                    <input type="radio" id="a1" name="q1">
+                                </span>
+                                <div class="texto">
+                                    <label for="a1">La historia del lugar</label>
+                                </div>
+                            </div>
+                            <div class="alternativa">
+                                <span class="checkbox-wrap">
+                                    <input type="radio" id="a2" name="q1">
+                                </span>
+                                <div class="texto">
+                                    <label for="a2">Las personas que conocí</label>
+                                </div>
+                            </div>
+                            <div class="alternativa">
+                                <span class="checkbox-wrap">
+                                    <input type="radio" id="a3" name="q1">
+                                </span>
+                                <div class="texto">
+                                    <label for="a3">Los <em>posts</em> que hice</label>
+                                </div>
+                            </div>
+                            <div class="alternativa">
+                                <span class="checkbox-wrap">
+                                    <input type="radio" id="a4" name="q1">
+                                </span>
+                                <div class="texto">
+                                    <label for="a4">Volver con un bagaje mayor</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="acoes">
+                            <input type="button" value="Confirmar" class="bt bt-confirmar" >
+                        </div>
+						<div class="feed">
+                            <div class="pos texto"> Você acertou </div>
+							<div class="neg texto"> Você errou </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <script>
+    head.load(
+        [
+            "js/jquery.min.js",
+            "js/gsap/TweenMax.min.js",
+            "js/bootstrap.min.js",
+            "js/jquery.eqheight.js",
+            "js/app.js"
+        ]
+    );
+    </script>
+</body>
+
+</html>

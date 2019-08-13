@@ -1,0 +1,191 @@
+/* CSS RESET */
+*, *:before, *:after {margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section, main{display: block;}
+audio,canvas,video{display: inline-block;}
+html{font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+body,button,input,select,textarea{font-family: sans-serif;}
+:active, :focus, a:hover{outline: 0;}
+b, strong {font-weight: bold;}
+pre{white-space: pre-wrap;}
+hr {-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;  height: 0;}
+q {quotes: "\201C" "\201D" "\2018" "\2019";}
+sub,sup{font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}
+sup{top: -.5em;}
+sub{bottom: -.25em;}
+img{border: 0; -ms-interpolation-mode:bicubic;}
+svg:not(:root){overflow: hidden;}
+legend{border: 0;}
+button,input,select,textarea{vertical-align: middle;}
+button,input{line-height: normal;}
+button,input[type=button],input[type=reset],input[type=submit]{ border: none; cursor: pointer; overflow: visible; -webkit-appearance: button;}
+button, select {text-transform: none;}
+input[type=search]{-moz-box-sizing: content-box; box-sizing: content-box; -webkit-appearance: textfield; -webkit-box-sizing: content-box;}
+input[type="search"]::-webkit-search-cancel-button, 
+input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+button::-moz-focus-inner,
+input::-moz-focus-inner{border: 0;}
+textarea{overflow: auto; vertical-align: top;  resize: none;}
+audio:not([controls]) {display: none; height: 0;}
+[hidden]{display: none;}
+button[disabled],html input[disabled] {cursor: default;}
+input[type="checkbox"], input[type="radio"] {box-sizing: border-box;}
+body, html {height: 100%; width: 100%;}
+body {overflow: -moz-scrollbars-vertical;}
+/*CSS personalizado*/
+#navinfo {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.navinfodata {
+    display: inline-block;
+}
+.navidata {
+    color: #0c4570;
+}
+.arrow-box {
+    background: #41a932;
+    color: #fff;
+    padding: 17px;
+}
+.seletor {
+    display: flex;    
+    background-color: #e8e8e8;
+    color: #0c4570;
+    font-size: 16px;
+}
+.aula-atual {
+    font-weight: bold;
+}
+nav.marginb {
+    margin-bottom: 0;
+}
+#right-arrow {
+    margin-left: auto;
+}
+#left-arrow {
+    margin-right: auto;
+}
+.faixa {
+    background-color: #005581;
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 21px 34px 25px 21px;
+    border-radius: 0 10px 0 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.stage {
+    background-clip: content-box;
+    background-color: #fff;
+}
+.casa {
+    border: 5px solid #41a932;
+    border-radius: 5px;
+    margin: 20px 34px 25px 0;
+}
+.caixa-baixo {
+    background-color: #249ecc;
+    color: #fff;
+    margin: 30px 24px 21px 23px;
+    padding: 15px;
+    font-size: 18px;
+}
+.dialogo {
+    max-width: 559px;
+    max-height: 127px;
+    margin: 50px auto;
+    background-color: #eee;
+    padding: 27px 18px 10px 25px;
+    text-align: center;
+    color: #0c4570;
+    font-weight: bold;
+    border: 3px solid #a7d2e2;
+    position: relative;
+}
+.sb1:after {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border:  20px solid transparent;
+    border-bottom-color: #a7d2e2;
+    border-top: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+.nutrientes {
+    background-clip: content-box;
+    background-image: url("../img/Ilustra\ BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.grid-topo {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #0c4570;
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+.caixa-nutrientes {
+    max-width: 400px;
+}
+.caixa-esquerda {
+    margin-left: auto;
+}
+.caixa-direita {
+    margin-right: auto;
+}
+.titulo {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    background-color: #0c4570;
+}
+.conteudo {
+    font-size: 20px;
+    background-color: rgba(66, 165, 205, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 50px 15px 15px 15px;
+}
+.conteudo p {
+    margin-top: 15px;
+}
+.grid-baixo {
+    font-size: 20px;
+    color: #0c4570;
+    padding: 30px;
+    margin-top: 25px;
+    text-align: center;
+}
+ul {
+    padding: 15px;
+    color: #000;
+    list-style: none;
+    
+}
+ul li {
+    padding: 3px;
+    font-size: 16px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #0c4570;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+body {
+    background-image: url("../img/BG.png")
+}
