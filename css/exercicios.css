@@ -3,11 +3,36 @@
     color: #fff;
     padding: 10px;
 }
-.col {
-    max-width: 600px;
+.col {    
     color: #0c4570;
 }
 
 .alternativas {
     padding: 10px;
+}
+
+div.respostas > label > input {
+    visibility: hidden;
+}
+div.respostas > label {
+    display: block;
+    margin: 0 0 0 0px;
+    padding: 0 0 20px 0;  
+    height: 50px;
+}
+div.respostas > label > img {
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    height:30px;
+    width:30px;
+    background: none;
+    border: 3px solid #0c4570;
+}
+
+div.respostas > label > input:checked +img {  
+    background: url('../img/check.png');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:30px 30px;
 }
