@@ -1,0 +1,13 @@
+.pergunta {
+    background: #0c4570;
+    color: #fff;
+    padding: 10px;
+}
+.col {
+    max-width: 600px;
+    color: #0c4570;
+}
+
+.alternativas {
+    padding: 10px;
+}
